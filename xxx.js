@@ -1,0 +1,15 @@
+	var mylink;
+	mylink = "CODE:";
+	mylink += "SET !ERRORIGNORE YES"+"\n";
+	mylink += "SET !ERRORCONTINUE YES"+"\n";
+	mylink += "SET !EXTRACT_TEST_POPUP YES"+"\n";
+	mylink += "SET !ENCRYPTION NO"+"\n";
+	mylink += "SET !TIMEOUT_STEP 1"+"\n";
+	mylink += "SET !TIMEOUT_TAG 1"+"\n";
+	mylink += "SET !WAITPAGECOMPLETE YES"+"\n";
+	mylink += "SET !REPLAYSPEED FAST"+"\n";
+	mylink += "SET !TIMEOUT 5"+"\n";
+	mylink += "SET !TIMEOUT_PAGE 5"+"\n";
+	mylink += "URL GOTO=https://google.com"+"\n";
+	mylink += "wait seconds=2"+"\n";
+	iimPlay(mylink);
